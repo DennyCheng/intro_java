@@ -1,0 +1,9 @@
+"Write-one,run where" principle by utilizing the Java Virtual Machine (JVM).
+-Rather than forcing you to keep up with memory allocation (or 3rd party libraries) Java platform
+provides memory management out of the box. Java application creates an object instance at runtime,
+JVM automatically allocates memory space for that object from the HEAP (pool of memory set aide for the program to use)
+Java garbage collector runs in the background, keeping track of which object the app is not using.
+^^ This is implicit memory management since we don't ned to write any memory handling code.
+Garbage collection is one of the essential features of Java platform performance.
+
+Java Runtime Environment (JRE aka Java runtime)
